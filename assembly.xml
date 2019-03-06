@@ -10,7 +10,7 @@ http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 ">
 	<includeBaseDirectory>false</includeBaseDirectory>
 
 	<fileSets>
-		<!-- scripts -->
+		<!-- assembly.xml -->
 		<fileSet>
 			<!--<directory></directory>-->
 			<includes>
@@ -19,6 +19,17 @@ http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 ">
 			<fileMode>0755</fileMode>
 			<outputDirectory>/</outputDirectory>
 		</fileSet>
+
+		<!-- script -->
+		<fileSet>
+			<!--<directory></directory>-->
+			<includes>
+				<include>scripts/*</include>
+			</includes>
+			<fileMode>0755</fileMode>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+
 
 		<!-- executable jar -->
 		<fileSet>
