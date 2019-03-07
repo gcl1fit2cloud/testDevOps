@@ -7,4 +7,3 @@ else
     mkdir -p /opt/mytest
 fi
 echo install dependencies done!
-
