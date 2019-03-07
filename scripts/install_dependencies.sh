@@ -8,3 +8,4 @@ else
 fi
 echo install dependencies done!
 echo hello.
+echo gittest.
