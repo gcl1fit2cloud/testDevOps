@@ -1,5 +1,6 @@
 #!/bin/bash
-
+pwd
+echo $@
 echo install dependencies
 if [ -d /opt/mytest ];then
     echo /opt/mytest exists
