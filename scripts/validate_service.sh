@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pwd
 processesNum=`ps aux | grep mytest | grep -v grep | wc -l | sed 's/ //g'`
 ps aux | grep mytest | grep -v grep
 echo process number is $processesNum
