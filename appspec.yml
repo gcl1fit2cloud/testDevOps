@@ -2,7 +2,7 @@ version: 4.2
 os: linux
 files:
   - source: /
-    destination: /opt/mytest/
+    destination: /opt/mytest1/
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
