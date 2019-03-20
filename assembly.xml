@@ -20,6 +20,16 @@ http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 ">
 			<outputDirectory>/</outputDirectory>
 		</fileSet>
 
+		<!-- assembly.xml -->
+		<fileSet>
+			<!--<directory></directory>-->
+			<includes>
+				<include>aa.txt</include>
+			</includes>
+			<fileMode>0755</fileMode>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+
 		<!-- script -->
 		<fileSet>
 			<!--<directory></directory>-->
